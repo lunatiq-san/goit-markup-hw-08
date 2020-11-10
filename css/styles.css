@@ -2,7 +2,8 @@
 /* вторичный цвет текста  #212121 */
 /* белый #FFFFFF */
 /* акцент #2196F3 */
-/* вторичный цвет фона #F5F4FA */
+/* вторичный цвет фона #2F303A */
+/* третичный цвет фона #F5F4FA */
 /* цвет основных контактов rgba(255, 255, 255, 0.6) */
 
 :root {
@@ -10,11 +11,13 @@
   --secondary-text-color: #212121;
   --primary-communication-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196F3;
-
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --tertiary-bg-color: #f5f4fa;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -35,12 +38,18 @@ body {
 
 /* Hero */
 
-.hero-title {
-  color: #ffffff;
+.hero {
+  background-color: var(--secondary-bg-color);
 }
 
-.hero .link {
-  color: #ffffff;
+.hero-title {
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+}
+
+.btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Section */
@@ -52,5 +61,12 @@ body {
 /* Features */
 
 .features .title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
 
+/* Footer */
+
+.footer {
+  background-color: var(--secondary-bg-color);
 }
