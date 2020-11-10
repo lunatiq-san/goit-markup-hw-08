@@ -1,0 +1,16 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста  #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --prymary-text-color: #757575;
+  --secondary-text-color: #212121;
+
+}
+
+body {
+  background-color: var();
+  color: var(--prymary-text-color);
+}
