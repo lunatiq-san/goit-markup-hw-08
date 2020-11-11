@@ -89,7 +89,7 @@ body {
 
 .features .title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -99,6 +99,24 @@ body {
 .features-text {
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* Team */
+
+.team-name {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
