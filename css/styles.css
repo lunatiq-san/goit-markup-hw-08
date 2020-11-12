@@ -33,6 +33,10 @@ body {
   color: var(--secondary-text-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .header {
   font-weight: 500;
   font-size: 14px;
