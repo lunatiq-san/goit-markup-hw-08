@@ -136,3 +136,13 @@ body {
 .footer .communication {
   color: var(--primary-communication-color);
 }
+
+/* Список переключателей */
+
+.buttons [type=button]{
+  background-color: var(--tertiary-bg-color);
+}
+.buttons [type=button]:hover,
+.buttons [type=button]:focus {
+  background-color: var(--accent-color);
+}
