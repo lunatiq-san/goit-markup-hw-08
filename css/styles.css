@@ -18,15 +18,12 @@
 
 * {
   text-decoration: none;
+  list-style: none;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-}
-
-.list {
-  list-style: none;
 }
 
 /* Site nav */
@@ -106,18 +103,20 @@ body {
 
 /* Team */
 
+.team li {
+  text-align: center;
+}
+
 .team-name {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
 }
 
 .team-position {
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
 }
 
 /* Footer */

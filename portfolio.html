@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
   <body>
 
-    <header>
+    <header class="header">
       <nav>
-        <a href="">
-          <img src="./images/logo.svg" alt="Логотип">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="Логотип компании">
         </a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <a href="mailto:info@devstudio.com" class="communication">info@devstudio.com</a>
@@ -26,10 +28,59 @@
       <section>
         <ul>
           <li><button type="button">Все</button></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><button type="button">Веб-сайты</button></li>
+          <li><button type="button">Приложения</button></li>
+          <li><button type="button">Дизайн</button></li>
+          <li><button type="button">Маркетинг</button></li>
+        </ul>
+
+        <!-- Список проектов -->
+        <ul>
+          <li>
+            <img src="./images/portfolio-01.jpg" alt="Сайт технокряк">
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-02.jpg" alt="Дизайн постера баскетбольной команды">
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-03.jpg" alt="Приложение для ресторана">
+            <h2>Ресторан Seafood</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-04.jpg" alt="Маркетинг проекта Prime">
+            <h2>Проект Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-05.jpg" alt="Приложение для проекта Boxes">
+            <h2>Проект Boxes</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-06.jpg" alt="Веб-сайт">
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-07.jpg" alt="Дизайн издания Limited Edition">
+            <h2>Издание Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-08.jpg" alt="Маркетинг проекта LAB">
+            <h2>Проект LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/portfolio-09.jpg" alt="Приложение Growing Business">
+            <h2>Growing Business</h2>
+            <p>Приложение</p>
+          </li>
         </ul>
       </section>
     </main>
