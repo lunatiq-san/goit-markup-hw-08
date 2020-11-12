@@ -22,6 +22,7 @@
 }
 
 body {
+  font-family: Roboto, sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
@@ -129,8 +130,8 @@ body {
 }
 
 .address {
-  color: var(--primary-white-color);
   font-style: normal;
+  color: var(--primary-white-color);
 }
 
 .footer .communication {
@@ -139,7 +140,8 @@ body {
 
 /* Список переключателей */
 
-.buttons [type="button"]{
+button {
+  font-family: inherit;
   background-color: var(--tertiary-bg-color);
 }
 .buttons [type="button"]:hover,
