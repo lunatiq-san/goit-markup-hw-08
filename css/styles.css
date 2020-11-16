@@ -10,10 +10,14 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --primary-communication-color: rgba(255, 255, 255, 0.6);
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #2f303a;
   --tertiary-bg-color: #f5f4fa;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 * {
@@ -21,13 +25,38 @@
   list-style: none;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  /* outline: 1px solid tomato; */
+}
+
 /* Site nav */
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav:not(:nth-last-child()) {
+  margin: 50px;
+}
 
 .site-nav .link {
   color: var(--secondary-text-color);
@@ -37,18 +66,18 @@ body {
   color: var(--accent-color);
 }
 
-.header {
+.page-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.header a:hover,
-.header a:focus {
+.page-header a:hover,
+.page-header a:focus {
   color: var(--accent-color);
 }
 
-.header .communication {
+.page-header .communication {
   color: var(--primary-text-color);
 }
 
@@ -148,8 +177,8 @@ button {
   font-family: inherit;
   background-color: var(--tertiary-bg-color);
 }
-.buttons [type="button"]:hover,
-.buttons [type="button"]:focus {
+.buttons [type='button']:hover,
+.buttons [type='button']:focus {
   background-color: var(--accent-color);
 }
 
