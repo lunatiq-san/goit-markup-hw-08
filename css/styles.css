@@ -30,10 +30,6 @@ html {
   box-sizing: border-box;
 }
 
-* {
-  text-decoration: none;
-}
-
 *,
 *::before,
 *::after {
@@ -46,15 +42,17 @@ body {
   color: var(--primary-text-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
   width: 1200px;
 
   margin-left: auto;
   margin-right: auto;
 
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
 }
 
 /* Site nav */
@@ -100,16 +98,19 @@ body {
 
 .hero {
   background-color: var(--secondary-bg-color);
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--primary-white-color);
+
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -122,7 +123,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
-  text-align: center;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -130,12 +130,18 @@ body {
 
 /* Section */
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section,
 .features {
   letter-spacing: 0.03em;
 }
 
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -145,20 +151,56 @@ body {
 
 /* Features */
 
+.features {
+  display: flex;
+}
+
+.features.title,
+.team-name.title {
+  margin-bottom: 10px;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
+
   color: var(--secondary-text-color);
 }
 
 .features-text {
+  margin-bottom: 0;
+  margin-top: 0;
+
   font-size: 14px;
   line-height: 1.7;
 }
 
+/* Services */
+
+.services {
+  padding-top: 0;
+}
+
+.service-list {
+  display: flex;
+}
+
 /* Team */
+
+.team {
+  background-color: var(--tertiary-bg-color);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
 
 .team li {
   text-align: center;
@@ -174,24 +216,6 @@ body {
 .team-position {
   font-size: 16px;
   line-height: 1.2;
-}
-
-/* Footer */
-
-.footer {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  background-color: var(--secondary-bg-color);
-}
-
-.address {
-  font-style: normal;
-  color: var(--primary-white-color);
-}
-
-.footer .communication {
-  color: var(--primary-communication-color);
 }
 
 /* Список переключателей */
@@ -220,4 +244,22 @@ button {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  background-color: var(--secondary-bg-color);
+}
+
+.address {
+  font-style: normal;
+  color: var(--primary-white-color);
+}
+
+.footer .communication {
+  color: var(--primary-communication-color);
 }
