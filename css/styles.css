@@ -80,6 +80,7 @@ a {
 }
 
 .page-header {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -272,15 +273,28 @@ button {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   background-color: var(--secondary-bg-color);
 }
 
+.footer-logo {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
 .address {
   font-style: normal;
   color: var(--primary-white-color);
+}
+
+.address > a {
+  display: block;
+  margin-top: 9px;
 }
 
 .footer .communication {
