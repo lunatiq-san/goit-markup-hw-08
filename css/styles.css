@@ -53,8 +53,6 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 1px solid tomato;
 }
 
 /* Site nav */
@@ -220,11 +218,30 @@ section {
   line-height: 1.2;
 }
 
+/* Portfolio.html */
 /* Список переключателей */
 
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons li:not(:last-child) {
+  margin-right: 8px;
+}
+
 button {
+  padding: 6px 22px;
+
   font-family: inherit;
   background-color: var(--tertiary-bg-color);
+  border-radius: 4px;
+  border: 0px;
 }
 .buttons [type='button']:hover,
 .buttons [type='button']:focus {
@@ -232,6 +249,10 @@ button {
 }
 
 /* Список проектов */
+
+.projects {
+  display: flex;
+}
 
 .project-title {
   font-weight: 700;
