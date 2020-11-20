@@ -400,6 +400,9 @@ button {
 
 .address > .link {
   display: block;
+}
+
+.address .link:not(:first-child) {
   margin-top: 9px;
 }
 
