@@ -343,7 +343,6 @@ button {
 
 .projects img {
   display: block;
-  margin-bottom: 20px;
 }
 
 .projects .item {
@@ -363,10 +362,11 @@ button {
   margin-bottom: 0;
 }
 
-.project-title {
-  margin-left: 24px;
-  margin-right: 24px;
+.project-content {
+  padding: 20px 24px;
+}
 
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -377,9 +377,6 @@ button {
 
 .project-text {
   margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
 
   font-size: 16px;
   line-height: 1.9;
