@@ -218,6 +218,20 @@ section {
   margin-bottom: 10px;
 }
 
+.features .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--tertiary-bg-color);
+}
+
+.icon-antenna::before {
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
