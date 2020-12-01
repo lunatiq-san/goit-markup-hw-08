@@ -42,16 +42,19 @@ body {
   color: var(--primary-text-color);
 }
 
-ul {
-  padding-left: 0;
-}
 /* Utilites */
 
-.list {
+.list,
+.link {
   padding: 0;
   margin: 0;
 
   list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -369,16 +372,24 @@ section {
   display: flex;
 }
 
+.team-icon .list:hover {
+  background-color: var(--accent-color);
+}
+
+.team-icon .list:last-child {
+  margin-right: 0;
+}
+
 .team-icon .link {
   display: inline-block;
   height: 44px;
   width: 44px;
-  margin-right: 10px;
-  list-style: none;
-}
 
-.team-icon .link:last-child {
-  margin-right: 0;
+  background-size: 20px;
+  background-position: center;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .team-icon .icon-instagram {
@@ -407,6 +418,42 @@ section {
   height: 20px;
   width: 20px;
   background-image: url('../images/icon/linkedin.svg');
+}
+
+/* Clients */
+
+.clients-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.clients-lists {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.clients .list {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  margin: 0 15px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-client-1 {
+  display: inline-block;
+  height: 50px;
+  width: 45px;
+  background-image: url('../images/icon/client-1.svg');
+  background-position: center;
 }
 
 /* Portfolio.html */
@@ -544,6 +591,7 @@ button {
 }
 
 .footer-join .title {
+  display: inline-block;
   margin-bottom: 20px;
 
   font-weight: 700;
