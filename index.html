@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="page-header">
       <div class="container header-flex">
         <nav>
@@ -34,11 +35,14 @@
             </li>
           </ul>
         </nav>
-        <div class="items">
-          <a class="communication link" href="mailto:info@devstudio.com">
+        <div class="header-contacts">
+          <a
+            class="communication link icon-email"
+            href="mailto:info@devstudio.com"
+          >
             info@devstudio.com
           </a>
-          <a class="communication link" href="tel:380961111111">
+          <a class="communication link icon-phone" href="tel:380961111111">
             +38 096 111 11 11
           </a>
         </div>
@@ -49,10 +53,7 @@
       <!-- Hero -->
       <section class="hero">
         <div class="hero-content">
-          <h1 class="hero-title">
-            Эффективные решения <br />
-            для вашего бизнеса
-          </h1>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <a class="btn" href="">Заказать услугу</a>
         </div>
       </section>
@@ -82,7 +83,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="item icon-astonaut">
+            <li class="item icon-astronaut">
               <h3 class="features-title title">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -134,8 +135,16 @@
                 alt="Фотография Игоря Демьяненко"
                 width="270"
               />
-              <h3 class="team-name title">Игорь Демьяненко</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="team-content">
+                <h3 class="team-name title">Игорь Демьяненко</h3>
+                <p class="team-position">Product Designer</p>
+                <ul class="team-icon">
+                  <li class="link"><a class="icon-instagram" href=""></a></li>
+                  <li class="link"><a class="icon-twitter" href=""></a></li>
+                  <li class="link"><a class="icon-facebook" href=""></a></li>
+                  <li class="link"><a class="icon-linkedin" href=""></a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
@@ -143,8 +152,16 @@
                 alt="Фотография Игоря Демьяненко"
                 width="270"
               />
-              <h3 class="team-name title">Ольга Репина</h3>
-              <p class="team-position">Frontend Developer</p>
+              <div class="team-content">
+                <h3 class="team-name title">Ольга Репина</h3>
+                <p class="team-position">Frontend Developer</p>
+                <ul class="team-icon">
+                  <li class="link"><a class="icon-instagram" href=""></a></li>
+                  <li class="link"><a class="icon-twitter" href=""></a></li>
+                  <li class="link"><a class="icon-facebook" href=""></a></li>
+                  <li class="link"><a class="icon-linkedin" href=""></a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
@@ -152,8 +169,16 @@
                 alt="Фотография Игоря Демьяненко"
                 width="270"
               />
-              <h3 class="team-name title">Николай Тарасов</h3>
-              <p class="team-position">Marketing</p>
+              <div class="team-content">
+                <h3 class="team-name title">Николай Тарасов</h3>
+                <p class="team-position">Marketing</p>
+                <ul class="team-icon">
+                  <li class="link"><a class="icon-instagram" href=""></a></li>
+                  <li class="link"><a class="icon-twitter" href=""></a></li>
+                  <li class="link"><a class="icon-facebook" href=""></a></li>
+                  <li class="link"><a class="icon-linkedin" href=""></a></li>
+                </ul>
+              </div>
             </li>
             <li class="item">
               <img
@@ -161,8 +186,16 @@
                 alt="Фотография Игоря Демьяненко"
                 width="270"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="team-content">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-position">UI Designer</p>
+                <ul class="team-icon">
+                  <li class="link"><a class="icon-instagram" href=""></a></li>
+                  <li class="link"><a class="icon-twitter" href=""></a></li>
+                  <li class="link"><a class="icon-facebook" href=""></a></li>
+                  <li class="link"><a class="icon-linkedin" href=""></a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -172,24 +205,37 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href="#">
-          <img src="./images/logo-v2.svg" alt="Логотип" />
-        </a>
-        <address class="address">
-          <a
-            class="google-address link"
-            target="_blank"
-            href="https://goo.gl/maps/JPTJLpiqcLhhmCbZ7"
-          >
-            г. Киев, пр-т Леси Украинки, 26
+        <div class="footer-left">
+          <a class="footer-logo" href="#">
+            <img src="./images/logo-v2.svg" alt="Логотип" />
           </a>
-          <a class="communication link" href="mailto:info@example.com">
-            info@example.com
-          </a>
-          <a class="communication link" href="tel:380991111111">
-            +38 099 111 11 11
-          </a>
-        </address>
+          <address class="address">
+            <a
+              class="google-address link"
+              target="_blank"
+              href="https://goo.gl/maps/JPTJLpiqcLhhmCbZ7"
+            >
+              г. Киев, пр-т Леси Украинки, 26
+            </a>
+            <a class="communication link" href="mailto:info@example.com">
+              info@example.com
+            </a>
+            <a class="communication link" href="tel:380991111111">
+              +38 099 111 11 11
+            </a>
+          </address>
+        </div>
+        <div class="footer-join">
+          <b class="title">Присоединяйтесь</b>
+          <ul class="footer-icon">
+            <li class="list">
+              <a class="link icon-instagram" href=""></a>
+            </li>
+            <li class="list"><a class="link icon-twitter" href=""></a></li>
+            <li class="list"><a class="link icon-facebook" href=""></a></li>
+            <li class="list"><a class="link icon-linkedin" href=""></a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
