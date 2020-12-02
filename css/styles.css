@@ -388,11 +388,13 @@ section {
   width: 44px;
   align-items: center;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: black;
   border-radius: 50%;
   margin-right: 10px;
+  color: var(--icon-gray-color);
+}
+
+.team-icon .link:hover {
+  color: var(--primary-white-color);
 }
 
 .team-icon .icon {
@@ -400,6 +402,7 @@ section {
   width: 20px;
   margin-left: auto;
   margin-right: auto;
+  fill: currentColor;
 }
 
 /* Clients */
