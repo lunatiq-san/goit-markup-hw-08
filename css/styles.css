@@ -91,9 +91,10 @@ a {
 }
 
 .page-header .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 
 .header-flex {
@@ -333,6 +334,8 @@ section {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
+  text-align: center;
+
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -348,10 +351,6 @@ section {
 .team-list .team-position {
   margin-top: 0;
   margin-bottom: 30px;
-}
-
-.team .item {
-  text-align: center;
 }
 
 .team-content {
@@ -507,6 +506,11 @@ button {
 
   background-color: var(--primary-white-color);
   border: 1px solid #eeeeee;
+}
+
+.projects .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects .item:nth-child(3n) {
