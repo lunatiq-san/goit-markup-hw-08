@@ -325,6 +325,8 @@ section {
 }
 
 .service-list .item {
+  display: flex;
+  position: relative;
   width: calc((100% - 60px) / 3);
 }
 
@@ -334,6 +336,27 @@ section {
 
 .service-list img {
   display: block;
+}
+
+.service-text {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  padding: 27px 15px;
+  width: 100%;
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* Team */
