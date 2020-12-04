@@ -84,7 +84,7 @@ a {
 .page-header a:hover,
 .page-header a:focus {
   color: var(--accent-color);
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-header .communication {
@@ -377,7 +377,7 @@ section {
 .team-icon .link:hover,
 .team-icon .link:focus {
   background-color: var(--accent-color);
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon .list:last-child {
@@ -398,7 +398,7 @@ section {
 .team-icon .link:hover,
 .team-icon .link:focus {
   color: var(--primary-white-color);
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon .icon {
@@ -448,7 +448,7 @@ section {
 .clients .link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .icon {
@@ -494,7 +494,7 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Список проектов */
@@ -522,7 +522,7 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects .item:nth-child(3n) {
@@ -650,7 +650,7 @@ button {
 .footer-join .icon-linkedin:focus {
   background-color: var(--accent-color);
 
-  transition: 250ms;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
