@@ -84,6 +84,7 @@ a {
 .page-header a:hover,
 .page-header a:focus {
   color: var(--accent-color);
+  transition: 250ms;
 }
 
 .page-header .communication {
@@ -373,8 +374,10 @@ section {
   display: flex;
 }
 
-.team-icon .link:hover {
+.team-icon .link:hover,
+.team-icon .link:focus {
   background-color: var(--accent-color);
+  transition: 250ms;
 }
 
 .team-icon .list:last-child {
@@ -392,8 +395,10 @@ section {
   color: var(--icon-gray-color);
 }
 
-.team-icon .link:hover {
+.team-icon .link:hover,
+.team-icon .link:focus {
   color: var(--primary-white-color);
+  transition: 250ms;
 }
 
 .team-icon .icon {
@@ -439,9 +444,11 @@ section {
   color: var(--icon-gray-color);
 }
 
-.clients .link:hover {
+.clients .link:hover,
+.clients .link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
+  transition: 250ms;
 }
 
 .clients .icon {
@@ -486,6 +493,8 @@ button {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  transition: 250ms;
 }
 
 /* Список проектов */
@@ -508,9 +517,12 @@ button {
   border: 1px solid #eeeeee;
 }
 
-.projects .item:hover {
+.projects .item:hover,
+.projects .item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  transition: 250ms;
 }
 
 .projects .item:nth-child(3n) {
@@ -631,8 +643,14 @@ button {
 .footer-join .icon-instagram:hover,
 .footer-join .icon-twitter:hover,
 .footer-join .icon-facebook:hover,
-.footer-join .icon-linkedin:hover {
+.footer-join .icon-linkedin:hover,
+.footer-join .icon-instagram:focus,
+.footer-join .icon-twitter:focus,
+.footer-join .icon-facebook:focus,
+.footer-join .icon-linkedin:focus {
   background-color: var(--accent-color);
+
+  transition: 250ms;
 }
 
 .footer-icon {
