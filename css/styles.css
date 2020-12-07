@@ -557,7 +557,8 @@ button {
   overflow: hidden;
 }
 
-.img-content:hover .img-text {
+.projects .item:hover .img-text,
+.projects .item:focus .img-text {
   transform: translateY(0);
 }
 
