@@ -122,23 +122,10 @@ img {
   margin-right: 30px;
 }
 
-.page-header .icon-email::before {
-  display: inline-block;
-  content: '';
-  height: 12px;
-  width: 16px;
+.header-contacts .icon {
   margin-right: 10px;
-  background-image: url('../images/icon/email.svg');
-}
-
-.page-header .icon-phone::before {
-  display: inline-block;
-  content: '';
-  height: 16px;
-  width: 10px;
-  margin-right: 10px;
-  background-image: url('../images/icon/phone.svg');
-  align-self: center;
+  --color2: currentColor;
+  --color5: currentColor;
 }
 
 .logo {
