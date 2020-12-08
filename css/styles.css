@@ -222,6 +222,8 @@ img {
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  cursor: pointer;
 }
 
 /* Section */
@@ -760,4 +762,6 @@ section {
   background-repeat: no-repeat;
   background-color: transparent;
   border: none;
+
+  cursor: pointer;
 }
