@@ -167,20 +167,6 @@ img {
   border-radius: 4px;
 }
 
-.site-nav .link:hover::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-  height: 4px;
-  width: 100%;
-  background-color: var(--accent-color);
-  border-radius: 4px;
-
-  transform: scaleX(1);
-}
-
 /* Hero */
 
 .hero {
