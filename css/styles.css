@@ -562,8 +562,8 @@ section {
   overflow: hidden;
 }
 
-.projects .item:hover .img-text,
-.projects .item:focus .img-text {
+.projects a:hover .img-text,
+.projects a:focus .img-text {
   transform: translateY(0);
 }
 
