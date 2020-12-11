@@ -809,24 +809,6 @@ section {
   border-radius: 4px;
 }
 
-.modal-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-
-  width: 30px;
-  height: 30px;
-  padding: 0;
-
-  background-image: url('../images/icon/close.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-
-  cursor: pointer;
-}
-
 /* Form */
 
 .form {
@@ -863,7 +845,7 @@ section {
 
 .form-label .form-input:focus,
 .form-label .comment:focus {
-  outline: none;
+  outline: 1px solid var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -905,18 +887,49 @@ section {
 }
 
 .form-policy {
+  display: flex;
   margin-bottom: 30px;
 
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  align-items: center;
 }
 
-.form-policy input {
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.policy-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
   margin-right: 8px;
+
+  border: 2px solid #000000;
+  border-radius: 2px;
+}
+
+.checkbox:checked + .policy-icon {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  background-image: url('../images/icon/form/form-check.svg');
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .form-policy .link {
+  margin-left: 5px;
   color: var(--accent-color);
   text-decoration: underline;
 }
@@ -933,4 +946,48 @@ section {
   transform: translateY(-50%);
 
   fill: var(--secondary-text-color);
+}
+
+.form .btn {
+  display: inline-block;
+  padding: 10px 32px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.modal-close {
+  position: absolute;
+  display: flex;
+  top: 8px;
+  right: 8px;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  color: #000000;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.icon-close {
+  margin-left: auto;
+  margin-right: auto;
+  fill: currentColor;
 }
