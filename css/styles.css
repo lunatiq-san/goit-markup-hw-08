@@ -845,8 +845,7 @@ section {
 
 .form-label .form-input:focus,
 .form-label .comment:focus {
-  outline: 1px solid var(--accent-color);
-  border: 1px solid var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .form-input:focus + .form-icon {
