@@ -2,7 +2,6 @@
 }
 .page-header__container {
   display: flex;
-  outline: 1px solid tomato;
 }
 .page-header__nav {
   display: flex;
@@ -52,12 +51,14 @@
   }
 }
 .page-header__contacts {
-  display: flex;
+  display: inline-flex;
   margin-left: auto;
   align-items: center;
 }
 .page-header__contact-link {
   @extend %link;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
   align-items: center;
 
@@ -82,4 +83,8 @@
   margin-right: 10px;
 }
 .page-header__icon-phone {
+}
+
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
 }

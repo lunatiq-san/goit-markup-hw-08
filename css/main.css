@@ -76,7 +76,6 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 1px solid tomato;
 }
 
 .page-header__nav {
@@ -131,9 +130,9 @@ textarea {
 }
 
 .page-header__contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-left: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -141,6 +140,8 @@ textarea {
 }
 
 .page-header__contact-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,7 +170,70 @@ textarea {
   margin-right: 10px;
 }
 
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
 .page-header__logo {
   margin-right: 94px;
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero__btn {
+  min-width: 200px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/bg.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__content {
+  width: 696px;
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
