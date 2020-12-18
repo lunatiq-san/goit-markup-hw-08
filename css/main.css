@@ -53,7 +53,7 @@ textarea {
   overflow: hidden;
 }
 
-.page-header__nav-list, .features__list {
+.page-header__nav-list, .features__list, .services__list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -295,5 +295,47 @@ textarea {
 
 .features__icon-astronaut::before {
   background-image: url("../../../../images/icon/features/astronaut.svg");
+}
+
+.services {
+  padding-bottom: 94px;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.services__item {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.services__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
 }
 /*# sourceMappingURL=main.css.map */
