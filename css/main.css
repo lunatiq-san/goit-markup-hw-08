@@ -408,6 +408,8 @@ textarea {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team__link:hover, .our-team__link:focus {

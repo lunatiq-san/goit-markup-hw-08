@@ -69,6 +69,8 @@
   border-radius: 50%;
   color: $icon-gray-color;
 
+  transition: $timing-function;
+
   &:hover,
   &:focus {
     background-color: $accent-color;
