@@ -152,7 +152,7 @@
   .form__checkbox:checked + & {
     border-color: $accent-color;
     background-color: $accent-color;
-    background-image: url('../../../../images/icon/form/form-check.svg');
+    background-image: url('../images/icon/form/form-check.svg');
     background-size: contain;
     background-origin: border-box;
   }

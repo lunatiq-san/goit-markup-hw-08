@@ -811,7 +811,7 @@ textarea {
 .form__checkbox:checked + .form__policy-icon {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url("../../../../images/icon/form/form-check.svg");
+  background-image: url("../images/icon/form/form-check.svg");
   background-size: contain;
   background-origin: border-box;
 }
