@@ -1,6 +1,5 @@
 .btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 32px;
 
   align-items: center;
   text-align: center;
@@ -20,4 +19,21 @@
 
 .hero__btn {
   min-width: 200px;
+}
+
+.footer__btn {
+  display: inline-flex;
+  padding-left: 28px;
+  padding-right: 28px;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+
+    margin-left: 10px;
+    background-image: url('../../../images/icon/send.svg');
+    background-repeat: no-repeat;
+  }
 }
