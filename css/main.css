@@ -214,7 +214,7 @@ textarea {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url("../../../images/icon/send.svg");
+  background-image: url("../images/icon/send.svg");
   background-repeat: no-repeat;
 }
 
@@ -337,15 +337,15 @@ textarea {
 }
 
 .features__icon-clock::before {
-  background-image: url("../../../../images/icon/features/clock.svg");
+  background-image: url("../images/icon/features/clock.svg");
 }
 
 .features__icon-diagram::before {
-  background-image: url("../../../../images/icon/features/diagram.svg");
+  background-image: url("../images/icon/features/diagram.svg");
 }
 
 .features__icon-astronaut::before {
-  background-image: url("../../../../images/icon/features/astronaut.svg");
+  background-image: url("../images/icon/features/astronaut.svg");
 }
 
 .services {
@@ -605,19 +605,19 @@ textarea {
 }
 
 .footer__icon-instagram {
-  background-image: url("../../../images/icon/social/instagram.svg");
+  background-image: url("../images/icon/social/instagram.svg");
 }
 
 .footer__icon-twitter {
-  background-image: url("../../../images/icon/social/twitter.svg");
+  background-image: url("../images/icon/social/twitter.svg");
 }
 
 .footer__icon-facebook {
-  background-image: url("../../../images/icon/social/facebook.svg");
+  background-image: url("../images/icon/social/facebook.svg");
 }
 
 .footer__icon-linkedin {
-  background-image: url("../../../images/icon/social/linkedin.svg");
+  background-image: url("../images/icon/social/linkedin.svg");
 }
 
 .footer__form {
