@@ -599,6 +599,8 @@ textarea {
 }
 
 .footer__icon:hover, .footer__icon:focus {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
   background-color: #2196f3;
 }
 

@@ -80,6 +80,7 @@
 
   &:hover,
   &:focus {
+    transform: scale(1.15);
     background-color: $accent-color;
   }
 }
