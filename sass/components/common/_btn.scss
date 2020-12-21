@@ -1,30 +1,30 @@
 .btn {
-  padding: 10px 32px;
+  // padding: 10px 32px;
 
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+  // align-items: center;
+  // text-align: center;
+  // letter-spacing: 0.06em;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  color: $primary-white-color;
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.87;
+  // color: $primary-white-color;
 
-  background-color: $accent-color;
-  border: none;
-  border-radius: 4px;
+  // background-color: $accent-color;
+  // border: none;
+  // border-radius: 4px;
 
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .hero__btn {
-  min-width: 200px;
+  // min-width: 200px;
 }
 
 .footer__btn {
-  display: inline-flex;
-  padding-left: 28px;
-  padding-right: 28px;
+  // display: inline-flex;
+  // padding-left: 28px;
+  // padding-right: 28px;
 
   &::after {
     content: '';
@@ -39,29 +39,29 @@
 }
 
 .form__btn {
-  display: inline-block;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  // display: inline-block;
+  // width: 200px;
+  // margin-left: auto;
+  // margin-right: auto;
 
-  font-weight: 700;
+  // font-weight: 700;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .projects__btn {
-  padding: 6px 22px;
+  // padding: 6px 22px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.62;
+  // text-align: center;
+  // letter-spacing: 0.03em;
 
-  color: $secondary-text-color;
-  background-color: $tertiary-bg-color;
-  border: none;
-  border-radius: 4px;
+  // color: $secondary-text-color;
+  // background-color: $tertiary-bg-color;
+  // border: none;
+  // border-radius: 4px;
 
   cursor: pointer;
   transition: $timing-function;
