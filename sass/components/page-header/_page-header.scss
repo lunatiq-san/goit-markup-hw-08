@@ -1,15 +1,15 @@
 .page-header {
 }
 .page-header__container {
-  display: flex;
+  // display: flex;
 }
 .page-header__nav {
-  display: flex;
-  align-items: center;
+  display: none;
+  // align-items: center;
 }
 .page-header__nav-list {
-  @extend %list;
-  display: flex;
+  // @extend %list;
+  // display: flex;
 }
 .page-header__item {
   &:not(:last-child) {
@@ -51,9 +51,10 @@
   }
 }
 .page-header__contacts {
-  display: inline-flex;
-  margin-left: auto;
-  align-items: center;
+  display: none;
+  // display: inline-flex;
+  // margin-left: auto;
+  // align-items: center;
 }
 .page-header__contact-link {
   @extend %link;

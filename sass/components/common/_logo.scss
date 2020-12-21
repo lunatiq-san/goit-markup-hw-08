@@ -1,6 +1,20 @@
 .logo {
+  @extend %link;
+  display: block;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  color: $accent-color;
 }
 
 .page-header__logo {
-  margin-right: 94px;
+  // margin-right: 94px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.page-header__logo--primary {
+  color: #000000;
 }
