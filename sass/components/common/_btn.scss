@@ -1,24 +1,29 @@
 .btn {
-  // padding: 10px 32px;
+  padding: 10px 32px;
 
-  // align-items: center;
-  // text-align: center;
-  // letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 
-  // font-weight: 700;
-  // font-size: 16px;
-  // line-height: 1.87;
-  // color: $primary-white-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $primary-white-color;
 
-  // background-color: $accent-color;
-  // border: none;
-  // border-radius: 4px;
+  background-color: $accent-color;
+  border: none;
+  border-radius: 4px;
 
-  // cursor: pointer;
+  cursor: pointer;
 }
 
 .hero__btn {
-  // min-width: 200px;
+  min-width: 200px;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .footer__btn {

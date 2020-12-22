@@ -117,6 +117,31 @@ textarea {
   color: #000000;
 }
 
+.btn {
+  padding: 10px 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero__btn {
+  min-width: 200px;
+}
+
+.hero__btn:hover, .hero__btn:focus {
+  background-color: #188ce8;
+}
+
 .footer__btn::after {
   content: '';
   display: inline-block;
@@ -131,6 +156,8 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 118px;
+  padding-bottom: 118px;
   max-width: 1600px;
   height: 400px;
   margin-left: auto;
@@ -149,6 +176,23 @@ textarea {
   background-position: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 0;
+    height: 600px;
+  }
+}
+
+.hero__wrap {
+  width: 390px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__wrap {
+    width: 696px;
+  }
+}
+
 .hero__title {
   margin-bottom: 30px;
   font-weight: 900;
@@ -157,6 +201,13 @@ textarea {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .features__icon-antenna::before {
@@ -189,5 +240,9 @@ textarea {
 
 .footer__icon-linkedin {
   background-image: url("../images/icon/social/linkedin.svg");
+}
+
+.backdrop {
+  overflow-y: scroll;
 }
 /*# sourceMappingURL=main.css.map */
