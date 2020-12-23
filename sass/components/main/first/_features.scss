@@ -1,42 +1,52 @@
 .features__list {
-  // @extend %list;
+  @extend %list;
 
-  // display: flex;
-  // margin-left: -15px;
-  // margin-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 
 .features__item {
-  // width: 270px;
-  // margin-left: 15px;
-  // margin-right: 15px;
+  margin: 15px;
 
-  // &::before {
-  //   display: block;
-  //   content: '';
-  //   height: 120px;
-  //   margin-bottom: 30px;
-  //   background: $tertiary-bg-color;
-  //   background-repeat: no-repeat;
-  //   background-position: center;
-  //   border-radius: 4px;
+  &::before {
+    display: block;
+    content: '';
+    height: 120px;
+    margin-bottom: 30px;
+    background: $tertiary-bg-color;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
 
-  //   overflow: hidden;
-  // }
+    //   overflow: hidden;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 270px;
+  }
 }
 
 .features__title {
-  // margin-bottom: 10px;
+  margin-bottom: 10px;
 
-  // font-weight: 700;
-  // line-height: 1.14;
-  // text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 
-  // color: $secondary-text-color;
+  color: $secondary-text-color;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .features__text {
-  // line-height: 1.71;
+  line-height: 1.71;
 }
 .features__icon-antenna {
   &::before {
