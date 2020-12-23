@@ -7,6 +7,11 @@
   font-size: 24px;
   line-height: 1.17;
   color: $accent-color;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .page-header__logo {
@@ -15,6 +20,10 @@
   padding-bottom: 16px;
 }
 
-.page-header__logo--primary {
+.logo--primary {
   color: #000000;
+}
+
+.logo--reverse {
+  color: $primary-white-color;
 }
