@@ -36,3 +36,7 @@ img {
 textarea {
   resize: none;
 }
+
+body.modal-open {
+  overflow: hidden;
+}
