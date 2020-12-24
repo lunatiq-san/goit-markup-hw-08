@@ -44,6 +44,10 @@
     max-width: 528px;
     height: 581px;
   }
+
+  @media screen and (max-width: 469px) {
+    padding-top: 10px;
+  }
 }
 
 .modal__title {
@@ -216,6 +220,14 @@
   &:hover,
   &:focus {
     color: $accent-color;
+  }
+
+  @media screen and (max-width: 479px) {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    top: 0px;
+    right: 0px;
   }
 }
 
