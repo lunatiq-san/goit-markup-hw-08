@@ -1,14 +1,43 @@
 .page-header {
+  position: relative;
+  border-bottom: 3px solid #ececec;
 }
 .page-header__container {
   // display: flex;
 }
 .page-header__nav {
-  display: none;
+  // position: relative;
   // align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.menu-container {
+  text-align: center;
+  background-color: $primary-white-color;
+  z-index: 1;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+    padding: 60px 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    &.is-open {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+}
+
 .page-header__nav-list {
-  // @extend %list;
+  @extend %list;
   // display: flex;
 }
 .page-header__item {
@@ -17,17 +46,20 @@
   }
 }
 .page-header__nav-link {
-  // @extend %link;
+  @extend %link;
   // display: inline-block;
   // padding-top: 32px;
   // padding-bottom: 32px;
 
-  // font-weight: 500;
-  // line-height: 1.14;
-  // letter-spacing: 0.02em;
-  // color: $secondary-text-color;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
 
-  // transition: $timing-function;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: $secondary-text-color;
+
+  transition: $timing-function;
 
   &:hover,
   &:focus {
@@ -50,14 +82,39 @@
     border-radius: 2px;
   }
 }
-.page-header__contacts {
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.menu-button.is-open .menu-button__icon-menu {
   display: none;
+}
+
+.menu-button__icon-menu-close {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-menu-close {
+  display: block;
+}
+
+.page-header__contacts {
+  // display: none;
   // display: inline-flex;
   // margin-left: auto;
   // align-items: center;
 }
 .page-header__contact-link {
-  // @extend %link;
+  @extend %link;
   // padding-top: 32px;
   // padding-bottom: 32px;
   // display: flex;
@@ -87,5 +144,4 @@
 }
 
 .header-portfolio {
-  border-bottom: 1px solid #ececec;
 }
