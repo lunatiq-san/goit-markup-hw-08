@@ -1312,7 +1312,6 @@ body.modal-open {
 @media screen and (max-width: 479px) {
   .modal-close {
     position: relative;
-    display: block;
     margin-left: auto;
     top: 0px;
     right: 0px;
