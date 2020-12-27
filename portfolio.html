@@ -17,50 +17,72 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="page-header header-portfolio">
-      <div class="container page-header__container">
-        <a class="page-header__logo logo" href="./index.html">
-          Web<span class="logo--primary">Studio</span>
-        </a>
+    <header class="page-header">
+      <div class="container">
         <nav class="page-header__nav">
-          <ul class="page-header__nav-list list">
-            <li class="page-header__item">
-              <a class="page-header__nav-link link" href="./index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="page-header__item">
+          <a class="page-header__logo logo" href="./index.html">
+            Web<span class="logo--primary">Studio</span>
+          </a>
+          <button
+            class="menu-button is-open"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="menu-button__icon-menu"
+                href="./images/icon/sprite.svg#menu"
+              ></use>
+              <use
+                class="menu-button__icon-menu-close"
+                href="./images/icon/sprite.svg#menu-close"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="page-header__nav-list">
+              <li class="page-header__item">
+                <a class="page-header__nav-link" href="./index.html">Студия</a>
+              </li>
+              <li class="page-header__item">
+                <a
+                  class="page-header__nav-link page-header__nav-link--current"
+                  href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="page-header__item">
+                <a class="page-header__nav-link" href="">Контакты</a>
+              </li>
+            </ul>
+            <div class="page-header__contacts">
               <a
-                class="page-header__nav-link page-header__nav-link--current link"
-                href="./portfolio.html"
-                >Портфолио</a
+                class="page-header__contact-link page-header__icon-email"
+                href="mailto:info@devstudio.com"
               >
-            </li>
-            <li class="page-header__item">
-              <a class="page-header__nav-link link" href="">Контакты</a>
-            </li>
-          </ul>
+                <svg class="page-header__icon" width="16" height="12">
+                  <use href="./images/icon/sprite.svg#email"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+              <a
+                class="page-header__contact-link page-header__icon-phone"
+                href="tel:380961111111"
+              >
+                <svg class="page-header__icon" width="10" height="16">
+                  <use href="./images/icon/sprite.svg#phone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </div>
+          </div>
         </nav>
-        <div class="page-header__contacts">
-          <a
-            class="page-header__contact-link link page-header__icon-email"
-            href="mailto:info@devstudio.com"
-          >
-            <svg class="page-header__icon" width="16" height="12">
-              <use href="./images/icon/sprite.svg#email"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-          <a
-            class="page-header__contact-link link page-header__icon-phone"
-            href="tel:380961111111"
-          >
-            <svg class="page-header__icon" width="10" height="16">
-              <use href="./images/icon/sprite.svg#phone"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
-        </div>
       </div>
     </header>
 
@@ -88,7 +110,7 @@
 
           <!-- Projects list -->
           <ul class="projects__set card-set">
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -107,7 +129,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -128,7 +150,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -147,7 +169,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -166,7 +188,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -185,7 +207,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -204,7 +226,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -223,7 +245,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
@@ -242,7 +264,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set__item item">
+            <li class="card-set__item">
               <a class="card-set__link" href="">
                 <div class="card-set__img-wrap">
                   <img
