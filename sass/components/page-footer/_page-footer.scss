@@ -43,8 +43,6 @@
   display: inline-block;
   margin-bottom: 20px;
 }
-.footer-nav__address {
-}
 
 .address {
   font-style: normal;
@@ -71,9 +69,6 @@
   &:nth-child(2) {
     margin-bottom: 8px;
   }
-}
-
-.footer__join {
 }
 
 .footer__title {
@@ -134,10 +129,6 @@
 .footer__icon-linkedin {
   background-image: url('../images/icon/social/linkedin.svg');
 }
-
-.footer__subscribe {
-}
-
 .footer__form {
   @media screen and (min-width: $desktop) {
     display: flex;
