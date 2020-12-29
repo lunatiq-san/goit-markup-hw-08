@@ -245,7 +245,7 @@ body.modal-open {
   color: #212121;
 }
 
-.menu-button:hover, .menu-button:focus {
+.menu-button:hover {
   color: #2196f3;
 }
 

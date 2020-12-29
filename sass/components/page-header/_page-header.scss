@@ -130,8 +130,7 @@
   background-color: transparent;
   color: $secondary-text-color;
 
-  &:hover,
-  &:focus {
+  &:hover {
     color: $accent-color;
   }
 
