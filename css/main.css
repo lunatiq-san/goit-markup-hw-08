@@ -242,12 +242,21 @@ body.modal-open {
   padding: 0;
   border: 0;
   background-color: transparent;
+  color: #212121;
+}
+
+.menu-button:hover, .menu-button:focus {
+  color: #2196f3;
 }
 
 @media screen and (min-width: 768px) {
   .menu-button {
     display: none;
   }
+}
+
+.menu-button__icon {
+  fill: currentColor;
 }
 
 .menu-button.is-open .menu-button__icon-menu {

@@ -128,10 +128,20 @@
   padding: 0;
   border: 0;
   background-color: transparent;
+  color: $secondary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 
   @media screen and (min-width: $tablet) {
     display: none;
   }
+}
+
+.menu-button__icon {
+  fill: currentColor;
 }
 
 .menu-button.is-open .menu-button__icon-menu {
